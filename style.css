@@ -14,6 +14,27 @@ header {
 main {
   padding: 20px;
 }
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: center;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: red;
+  color: black;
+  text-decoration:bold;
+}
+
+
 .container {
   max-width: 800px;
   margin: auto;
@@ -28,7 +49,7 @@ main {
   height: 300px;
   border-radius: 50%;
   margin-right: 5px;
-  margin-bottom:680px;
+  margin-bottom:100px;
 }
 .profile-info h1 {
   margin: 0;
@@ -48,6 +69,7 @@ main {
 .social-links li:last-child {
   margin-right: 0;
 }
+
 .social-links li a {
   color: #24292e;
   text-decoration-line: underline;
@@ -58,4 +80,24 @@ main {
   text-decoration-line: underline;
   text-decoration-style: wavy;
   font-size: 20px;
+}
+.link a {
+  background-color:black;
+  overflow:hidden;
+}
+.link a {
+  float: center;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.link a:hover {
+  background-color: red;
+  color: black;
+  text-decoration:bold;
+}
+.link a:active{
+  background-color:red;
 }
